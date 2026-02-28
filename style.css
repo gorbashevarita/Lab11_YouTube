@@ -84,7 +84,8 @@ button:hover {
     font-size: 24px
 }
 .logo-text {
-    font-size: 18px
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .avatar {
     width: 32px;
@@ -241,6 +242,61 @@ button:hover {
 .video-card:hover .thumbnail img {
     transform: scale(1.05);
 }
+.footer {
+    border-top: 1px solid #e5e5e5;
+    padding: 24px 0;
+    margin-top: 40px;
+}
+.footer-text {
+    color: #606060;
+    font-size: 14px;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+    text-decoration: none;
+}
+
+.footer-copyright {
+    color: #909090;
+    font-size: 12px;
+    text-align: center;
+}
+.top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    width: 50px;
+    height: 50px;
+    border: none;;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+    outline: 2px solid #278dcd;
+    background-color: #ffcbcb;
+}
+
+.top:hover {
+    background-color: #ff1d1d;
+}
+
 
 /* Адаптивность */
 @media (max-width: 1024px) {
@@ -293,4 +349,6 @@ padding: 8px 0;
 .chip {
 padding: 6px 12px;
 font-size: 13px;
+}
+
 }
